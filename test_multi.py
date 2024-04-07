@@ -13,10 +13,10 @@ from collections import deque
 GPIO.setmode(GPIO.BOARD)
 
 #使用するピン番号を代入
-IN_1=8    #BLUE
-IN_2=10   #PINK
-IN_3=16   #YELLOW
-IN_4=18   #ORANGE
+IN_1=2    #BLUE
+IN_2=3   #PINK
+IN_3=4   #YELLOW
+IN_4=17   #ORANGE
 
 #各ピンを出力ピンに設定し、初期出力をローレベルにする
 GPIO.setup(IN_1,GPIO.OUT,initial=GPIO.LOW)
