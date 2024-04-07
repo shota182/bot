@@ -10,7 +10,7 @@ import time
 from collections import deque
 
 #ピン番号の割当方式を「コネクタピン番号」に設定
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 
 #使用するピン番号を代入
 IN_1=2    #BLUE
